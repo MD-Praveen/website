@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Practice</title>
+   <link rel="stylesheet" href="style.css">
+
+   <script src="https://kit.fontawesome.com/40a41ef56d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+   <div class="head">
+      <div class="head_heading">
+         The Perks of Flying Private <br>
+         Book by the seat from $975
+         <div id="head_subHeading">
+            <i class="arrowleft fa-solid fa-arrow-right"></i> 
+            See Where We Fly 
+            <i class=" rightarrow fa-solid fa-arrow-right"></i>
+         </div>
+      </div>
+   </div>
+
+   <div class="content">
+      <div class="contentText">
+         <span class="contentText_h1">
+            Aero x Waldorf Astoria
+         </span>
+         <br>
+         <span class="contentText_h2">
+          Cabo Travel Package
+         </span>
+
+         <div class="contentSubtext">
+            <span class="contentSubtext_h1">
+               Jet from Los Angeles or Dallas on Aero and enjoy an <br>
+               immersive experience at the #1 resort in Los Cabos.            
+            </span>
+            <br>
+            <span class="contentSubtext_h2">
+               Carved into the cliffs of Pedregal Mountain, the <br>
+               bespoke accommodations at the Waldorf Astoria offerr <br>
+               unparalleled views of the Pacific Ocean and private <br>
+               plunge pools.            
+            </span>
+         </div>
+
+         <span class="learnmore">Learn More  <i class=" crossarrow fa-solid fa-arrow-right"></i></span>
+
+         <button class="bookseats">Book Your Seats <i class="btnRightArrow fa-solid fa-caret-right"></i></button>         
+      </div>
+      <div class="contentImage">
+         <img src="hotel.jpg" alt="hotel" width="100">
+      </div>
+   </div>
+
+
+   <div class="content">
+      <div class="contentImage">
+         <img src="landjet.webp" alt="jet">
+      </div>
+      <div class="contentText">
+         <span class="contentText_h1">
+            Why Aero?
+         </span>
+         <br>
+         <span class="contentText_h2">
+            An intimate journey you'll remember
+         </span>
+
+         <div class="box">
+            <span>
+               <i class="fas fa-plane-departure"></i>
+               Save precious time by traveling between our private terminals-skip the lines and crowds.
+            </span>
+            <span>
+               <i class="fa  fa-suitcase-rolling"></i>
+               Check in curbside just 20 minutes before your flight and effortlessly board the jet.
+            </span>
+            <span>
+               <i class="fa-solid fa-couch"></i>
+               Fly in comfort with generous space, Italian leather seats, and a relaxing ambiance.
+            </span>
+            <span>
+               <i class="fa-light fa fa-martini-glass-citrus"></i>
+               Enjoy a premium open bar and complimentary in-flight dining featuring Erewhon and Sadelle's.
+            </span>
+         </div>
+
+         <span class="learnmore" id="learnMore">Learn More <i class=" crossarrow fa-solid fa-arrow-right"></i></span>
+
+         <button class="bookseats2" >Book Your Seats  <i class="btnRightArrow fa-solid fa-caret-right"></i></button>  
+      </div>
+   </div>
+
+
+   <div class="content">
+      <div class="container">
+         <div class="containerText">
+            <span class="contentText_h1">
+               Destinations in North America
+            </span>
+            <div class="buttons">
+               <button id="btn1" onclick="changeContent(arr[0], 'btn1')">
+                   <span class="btn-1st">Mexico</span><br>
+                   <span class="btn-2nd">Los Cabos</span>
+               </button>
+       
+               <button id="btn2" onclick="changeContent(arr[1], 'btn2')">
+                   <span class="btn-1st">Colorado</span><br>
+                   <span class="btn-2nd">Aspen</span>
+               </button>
+       
+               <button id="btn3" onclick="changeContent(arr[2], 'btn3')">
+                   <span class="btn-1st">Idaho</span><br>
+                   <span class="btn-2nd">Sun Valley</span>
+               </button>
+       
+               <button id="btn4" onclick="changeContent(arr[3], 'btn4')">
+                   <span class="btn-1st">California</span><br>
+                   <span class="btn-2nd">Los Angeles</span>
+               </button>
+           </div>
+         </div>
+         <div class="containerImage" id="imageContent">
+            <div class="imagebox">
+               <div class="imageboxcontent">
+                  <div class="boxcontent">
+                     <span class="heading-1" id="box-h1">
+                        Soak up Los Cabos        
+                     </span>
+                     <br>
+                     <span class="heading-2" id="box-h2">
+                        Mexico’s luxury resort area offers miles of pristine coastline and vast desert scenery. Experience buzzing nightlife, Michelin-star dining, and personalized yacht trips.          
+                     </span>
+                  </div>
+               </div>
+               <button class="bookseats2" id="Bookseats2">Book Your Seats  <i class="btnRightArrow fa-solid fa-caret-right"></i></button>  
+            </div>
+         </div>
+      </div>
+   </div>
+
+
+   <div class="content">
+
+      <div class="contentText">
+         <span class="contentText_h1">
+            The Aero Experience
+         </span>
+         <br>
+         <span class="contentText_h2">
+            Well-crafted at every touchpoint
+         </span>
+
+         <div class="contentSubtext">
+            <span class="contentSubtext_h1">
+               A seamless journey from booking to touchdown            
+            </span>
+            <br>
+            <span class="contentSubtext_h2">
+               No lines or crowds <br>
+               Private lounge access <br>
+               Artisanal snacks and open bar <br>
+               Dedicated Concierge team <br>
+               Pets welcome onboard            
+            </span>
+         </div>
+
+
+         <span class="learnmore">Learn More <i class=" crossarrow fa-solid fa-arrow-right"></i></span>
+
+         <button class="bookseats2">Book Your Seats  <i class="btnRightArrow fa-solid fa-caret-right"></i></button>  
+      </div>
+
+      <div class="contentImage">
+         <img src="walking_from_get.webp" alt="jet">
+      </div>
+   </div>
+  
+   
+
+   <script src="index.js"></script>
+</body>
+</html>
